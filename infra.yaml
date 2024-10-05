@@ -1,0 +1,31 @@
+nodes:
+
+  target1:
+    ip: 192.168.1.230
+    port: 9281
+    image: ubuntu/jammy64
+  target2:
+    ip: 192.168.1.240
+    port: 9282
+    image: mystfit/Windows-10-x64-ssh
+  target3:
+    ip: 172.16.1.250
+    port: 9283
+    image: ubuntu/jammy64
+
+  jumpbox1:
+    ip: 192.168.1.220
+    port: 9284
+    image: ubuntu/jammy64
+  jumpbox2:
+    ip: 192.168.1.221
+    port: 9285
+    image: ubuntu/jammy64
+  jumpbox3:
+    ip: 192.168.1.222
+    port: 9286
+    image: ubuntu/jammy64
+  jumpbox4:
+    ip: 192.168.1.223
+    port: 9287
+    image: ubuntu/jammy64
