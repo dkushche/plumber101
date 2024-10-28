@@ -1,17 +1,9 @@
 nodes:
 
-  target1:
-    ip: 192.168.1.230
-    port: 9281
-    image: ubuntu/jammy64
-  target2:
-    ip: 192.168.1.240
-    port: 9282
-    image: mystfit/Windows-10-x64-ssh
-  target3:
-    ip: 172.16.1.250
-    port: 9283
-    image: ubuntu/jammy64
+  kali:
+    ip: 192.168.1.200
+    port: 9280
+    image: kalilinux/rolling
 
   jumpbox1:
     ip: 192.168.1.220
@@ -28,4 +20,17 @@ nodes:
   jumpbox4:
     ip: 192.168.1.223
     port: 9287
+    image: ubuntu/jammy64
+
+  target1:
+    ip: 192.168.1.230
+    port: 9281
+    image: ubuntu/jammy64
+  target2:
+    ip: 192.168.1.240
+    port: 9282
+    image: jborean93/WindowsServer2019
+  target3:
+    ip: 172.16.1.250
+    port: 9283
     image: ubuntu/jammy64
